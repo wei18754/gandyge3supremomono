@@ -1,1 +1,65 @@
-{"variables":[{"output":false,"input":false,"subtype":"UNDEFINED","name":"prompt-assignment","description":"A variable you can use for assignments","type":"STRING"}],"nodes":[{"uid":"null","commandName":"messageBox","packageId":"156","attributes":[{"name":"closeMsgBox","value":{"boolean":true,"type":"BOOLEAN"}},{"name":"timeOut","value":{"number":"5","type":"NUMBER"}},{"name":"content","value":{"string":"This message comes from Bot 1","type":"STRING"}},{"name":"scrollLines","value":{"number":"30","type":"NUMBER"}},{"name":"title","value":{"string":"APISanity - Test Automation Message Box","type":"STRING"}}],"packageName":"MessageBox","commandId":"156"},{"uid":"8a8d1b6a-350a-4103-b108-8d7dd5eedd42","commandName":"runTask","packageId":"126","attributes":[{"name":"taskbot","value":{"taskbotInput":{"dictionary":[],"type":"DICTIONARY"},"taskbotOutput":{"dictionary":[],"type":"DICTIONARY"},"type":"TASKBOT","taskbotFile":{"string":"repository:///Automation%20Anywhere/Bots/F-Rm-S-Deps-On-2nd-CheckInQxKU/dependencyBot-2aSw-Test","type":"FILE"}}},{"name":"repeatOption","value":{"string":"DO_NOT_REPEAT","type":"STRING"}},{"name":"delayNextRepetition","value":{"boolean":false,"type":"BOOLEAN"}},{"name":"continueOnError","value":{"boolean":false,"type":"BOOLEAN"}}],"packageName":"TaskBot","commandId":"126"}],"packages":[{"name":"MessageBox","version":"2.1.0-20201014-042808"},{"name":"TaskBot","version":"2.0.1-20201013-093954"}],"dependencies":[]}
+{
+  "nodes": [
+    {
+      "uid": "ef17fe39-be12-4bed-a7fa-b932eaf224d6",
+      "commandName": "messageBox",
+      "packageName": "MessageBox",
+      "attributes": [
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "5"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "string": "Updated Run Task Command with this message Box"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "APISanity - Test Automation Message Box"
+          }
+        }
+      ],
+      "commandId": "156",
+      "packageId": "156"
+    }
+  ],
+  "variables": [
+    {
+      "name": "prompt-assignment",
+      "description": "A variable you can use for assignments",
+      "type": "STRING",
+      "subtype": "UNDEFINED",
+      "input": false,
+      "output": false
+    }
+  ],
+  "dependencies": [],
+  "packages": [
+    {
+		"name":"MessageBox",
+      	"version": "2.1.0-20201014-042808"
+    }
+  ]
+}
